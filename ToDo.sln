@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{745A0EA6-34A2-4DA8-935E-4F540C937838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Blazer", "src\ToDo.Blazer\ToDo.Blazer.csproj", "{A8920C5B-CC04-47A1-BEB9-2B91B700F0EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.WebAPI", "src\ToDo.WebAPI\ToDo.WebAPI.csproj", "{06046967-3CAB-4735-BA28-91D0494A2911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8920C5B-CC04-47A1-BEB9-2B91B700F0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8920C5B-CC04-47A1-BEB9-2B91B700F0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8920C5B-CC04-47A1-BEB9-2B91B700F0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8920C5B-CC04-47A1-BEB9-2B91B700F0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06046967-3CAB-4735-BA28-91D0494A2911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06046967-3CAB-4735-BA28-91D0494A2911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06046967-3CAB-4735-BA28-91D0494A2911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06046967-3CAB-4735-BA28-91D0494A2911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8920C5B-CC04-47A1-BEB9-2B91B700F0EF} = {745A0EA6-34A2-4DA8-935E-4F540C937838}
+		{06046967-3CAB-4735-BA28-91D0494A2911} = {745A0EA6-34A2-4DA8-935E-4F540C937838}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F88B60A-8A53-4AD2-9735-C1543A67542C}
+	EndGlobalSection
+EndGlobal

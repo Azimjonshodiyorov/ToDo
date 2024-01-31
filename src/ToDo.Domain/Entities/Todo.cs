@@ -4,7 +4,7 @@ using ToDo.Domain.Enums;
 
 namespace ToDo.Domain.Entities
 {
-    [Table("todo", Schema ="todo_list")]
+    [Table("todo1", Schema ="todo1_list")]
     public class Todo : AuditableEntity<long>
     {
         [Column("title")]

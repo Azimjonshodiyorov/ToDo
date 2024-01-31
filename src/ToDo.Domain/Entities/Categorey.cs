@@ -3,7 +3,7 @@ using ToDo.Domain.Common;
 
 namespace ToDo.Domain.Entities
 {
-    [Table("category",Schema ="todo_list")]
+    [Table("category1",Schema ="todo1_list")]
     public class Categorey : AuditableEntity<long>
     {
         [Column("name")]

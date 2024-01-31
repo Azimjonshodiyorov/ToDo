@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using ToDo.Infrastructure.Repositories.Interfaces;
 
 namespace ToDo.Infrastructure.Extensions
 {
+    [ExcludeFromCodeCoverage]
     public static class AddConfigureRepositoryRegistration
     {
         public static IServiceCollection AddRepositoriesConfigure(this IServiceCollection services,IConfiguration configuration)
@@ -36,7 +38,7 @@ namespace ToDo.Infrastructure.Extensions
                 {
                     var dbContext = services.GetRequiredService<ToDoDbContext>();
 
-                    TodoDbInitializer.Initializer(dbContext);
+                   // TodoDbInitializer.Initializer(dbContext);
                 }
                 catch (Exception)
                 {
